@@ -67,9 +67,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #0a16c1;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
     margin-top: 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     transition: 0.6s;
 
@@ -111,7 +111,7 @@ body{
             display: flex;
             text-decoration: none;
             color: #fff;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             transition: color 0.3s ease;
         }
         a:hover{
@@ -126,7 +126,6 @@ body{
         }
 
         .animation {
-            position: absolute;
             height: 100%;
             top: 0;
             z-index: 0;
@@ -167,11 +166,15 @@ body{
 }
 
 main {
-    margin-top: 60px;
+    margin-top: 20px;
 
     p {
         text-align: justify;
-        margin-left: 5px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    section {
+        margin-bottom: 10px;
     }
 }
 
